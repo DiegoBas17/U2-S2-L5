@@ -34,7 +34,7 @@
   >
     <header>
       <nav
-        class="navbar navbar-expand-lg bg-tramsparent border-body"
+        class="navbar navbar-expand-lg bg-transparent border-body"
         data-bs-theme="dark"
       >
         <div class="container">
@@ -56,7 +56,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 opacity-75">
               <li class="nav-item">
                 <a class="nav-link active" href="#">Home</a>
               </li>
@@ -75,8 +75,8 @@
             </ul>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
+              width="14"
+              height="14"
               fill="white"
               class="bi bi-search"
               viewBox="0 0 16 16"
@@ -106,10 +106,11 @@
                   style="height: 30px"
               /></a>
               <button
-                class="btn dropdown-toggle mx-o"
+                class="btn dropdown-toggle"
                 type="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
+                style="padding-left: 2px"
               ></button>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Profilo</a></li>
@@ -180,7 +181,6 @@
       </div>
       <div class="container">
         <h2 class="text-white mt-5 mb-3 fs-4">Trending Now</h2>
-        <!-- inizio carousel -->
         <!-- carosello con data-bs-ride="true riproduce il carosello dopo la prima interazione dell'utente-->
         <div id="carouselRide" class="carousel slide" data-bs-ride="true">
           <div class="carousel-inner">
