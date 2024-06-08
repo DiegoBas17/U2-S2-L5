@@ -181,11 +181,372 @@
       <div class="container">
         <h2 class="text-white mt-5 mb-3 fs-4">Trending Now</h2>
         <!-- inizio carousel -->
+        <!-- carosello con data-bs-ride="true riproduce il carosello dopo la prima interazione dell'utente-->
+        <div id="carouselRide" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <div class="row g-1">
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="./assets/media/media0.webp"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="./assets/media/media1.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media10.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media11.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="d-none d-lg-block col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media12.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="d-none d-lg-block col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media13.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <div class="row g-1">
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="./assets/media/media7.webp"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="./assets/media/media1.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media10.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media11.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="d-none d-lg-block col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media12.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="d-none d-lg-block col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media13.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <div class="row g-1">
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="./assets/media/media0.webp"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="./assets/media/media1.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media10.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media11.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="d-none d-lg-block col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media12.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="d-none d-lg-block col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media13.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselRide"
+            data-bs-slide="prev"
+            style="width: unset"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselRide"
+            data-bs-slide="next"
+            style="width: unset"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <h2 class="text-white mt-5 mb-3 fs-4">Watch It Again</h2>
+        <!-- carosello con data-bs-ride="carousel riproduce il carosello al caricamento della pagina -->
         <div
-          id="carouselExampleAutoplaying"
+          id="carouselAutoplaying"
           class="carousel slide"
           data-bs-ride="carousel"
         >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <div class="row g-1">
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="./assets/media/media0.webp"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="./assets/media/media1.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media10.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media11.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="d-none d-lg-block col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media12.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="d-none d-lg-block col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media13.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <div class="row g-1">
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="./assets/media/media7.webp"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="./assets/media/media1.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media10.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media11.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="d-none d-lg-block col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media12.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="d-none d-lg-block col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media13.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <div class="row g-1">
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="./assets/media/media0.webp"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="./assets/media/media1.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media10.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="col-12 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media11.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="d-none d-lg-block col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media12.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="d-none d-lg-block col-lg-2 col-xl-2 col-xxl-2">
+                  <img
+                    src="/assets/media/media13.jpg"
+                    alt=""
+                    class="img-fluid w-100"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselAutoplaying"
+            data-bs-slide="prev"
+            style="width: unset"
+          >
+            <span
+              class="carousel-control-prev-icon"
+              aria-hidden="carousel"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselAutoplaying"
+            data-bs-slide="next"
+            style="width: unset"
+          >
+            <span
+              class="carousel-control-next-icon"
+              aria-hidden="carousel"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <h2 class="text-white mt-5 mb-3 fs-4">New Releases</h2>
+        <!-- carosello con data-bs-ride="carousel riproduce il carosello al caricamento della pagina, in piu ha un tema dark e un contatore di slide alla base-->
+        <div
+          id="carouselNewReleases"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators" style="margin-bottom: unset">
+            <button
+              type="button"
+              data-bs-target="#carouselNewReleases"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselNewReleases"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselNewReleases"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="5000">
               <div class="row g-1">
@@ -326,96 +687,32 @@
               </div>
             </div>
           </div>
-        </div>
-        <h2 class="text-white mt-5 mb-3 fs-4">Watch It Again</h2>
-        <div class="row g-0">
-          <div class="col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-            <img
-              src="./assets/media/media14.webp"
-              alt=""
-              class="img-fluid w-100"
-            />
-          </div>
-          <div class="col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-            <img
-              src="./assets/media/media15.jpg"
-              alt=""
-              class="img-fluid w-100"
-            />
-          </div>
-          <div class="col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-            <img
-              src="/assets/media/media16.webp"
-              alt=""
-              class="img-fluid w-100"
-            />
-          </div>
-          <div class="col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-            <img
-              src="/assets/media/media17.jpg"
-              alt=""
-              class="img-fluid w-100"
-            />
-          </div>
-          <div class="col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-            <img
-              src="/assets/media/media18.jpg"
-              alt=""
-              class="img-fluid w-100"
-            />
-          </div>
-          <div class="col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-            <img
-              src="/assets/media/media13.jpg"
-              alt=""
-              class="img-fluid w-100"
-            />
-          </div>
-        </div>
-        <h2 class="text-white mt-5 mb-3 fs-4">New Releases</h2>
-        <div class="row g-0">
-          <div class="col-md-4 col-lg-2 col-xl-2 col-xxl-2 mb-5">
-            <img
-              src="./assets/media/media0.webp"
-              alt=""
-              class="img-fluid w-100"
-            />
-          </div>
-          <div class="col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-            <img
-              src="./assets/media/media1.jpg"
-              alt=""
-              class="img-fluid w-100"
-            />
-          </div>
-          <div class="col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-            <img
-              src="/assets/media/media10.jpg"
-              alt=""
-              class="img-fluid w-100"
-            />
-          </div>
-          <div class="col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-            <img
-              src="/assets/media/media11.jpg"
-              alt=""
-              class="img-fluid w-100"
-            />
-          </div>
-          <div class="col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-            <img
-              src="/assets/media/media12.jpg"
-              alt=""
-              class="img-fluid w-100"
-            />
-          </div>
-          <div class="col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-            <img
-              src="/assets/media/media13.jpg"
-              alt=""
-              class="img-fluid w-100"
-            />
-          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselNewReleases"
+            data-bs-slide="prev"
+            style="width: unset"
+          >
+            <span
+              class="carousel-control-prev-icon"
+              aria-hidden="carousel"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselNewReleases"
+            data-bs-slide="next"
+            style="width: unset"
+          >
+            <span
+              class="carousel-control-next-icon"
+              aria-hidden="carousel"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </main>
