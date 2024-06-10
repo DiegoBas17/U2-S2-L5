@@ -6,6 +6,9 @@
 
 // 2. Include any default variable overrides here
 
+$btn-border-radius: 0rem;
+$form-select-border-radius: 0rem;
+
 // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
 @import "./bootstrap/scss/variables";
 @import "./bootstrap/scss/variables-dark";
@@ -36,3 +39,8 @@
 @import "./bootstrap/scss/utilities/api";
 
 // 8. Add additional custom code here
+@media (max-width: 768px) {
+    body {
+      height: auto; /* Altezza automatica per adattarsi al contenuto */
+    }
+  }
